@@ -1,0 +1,286 @@
+@charset "utf-8";
+* { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none;}
+li{ float:left;}
+
+input::-moz-focus-inner { border:none; padding:0; }
+img, label, input, select, textarea { vertical-align:middle;}
+select, textarea { font-size:12px; margin:0; }
+input { padding-top:0; padding-bottom:0; font-family:"SimSun","宋体"; font-size:16px;}
+
+input[type="text"], input[type="password"], textarea { outline-style:none; -webkit-appearance:none; }
+textarea { resize:none; }
+table { border-collapse:collapse;  }
+td{vertical-align:top;border-top:none;}
+body{ font:12px/1.5em "微软雅黑" "SimSun" "宋体" "Arial Narrow" HELVETICA;-webkit-text-size-adjust:100%; }
+a { color:#333; text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active, a:focus { /*color:#f30;text-decoration:none;*/  }
+a:focus{outline:none;blr:expression_r(this.onFocus=this.blur());}
+
+body{background: #fff;}
+
+
+/*服务商头部*/
+.service-top{background:#333; height:48px; line-height:48px; overflow: hidden;}
+.service-top .service-top-left{ float:left;}
+/*.service-top .service-top-left .service-top-left-logo{ width:80px; height:30px; margin:9px; background:url(images/service-logo.png) no-repeat; float:left;}*/
+.service-top .service-top-left span{float:left; border-left:1px solid #666666; width:5px; height:30px; margin:9px;}
+.service-top .service-top-left h1{float:left; color:#fff; font-size:16px; font-weight:normal;font-family:"Microsoft YaHei";}
+.service-top .service-top-right{ float:right; color:#fff;}
+.service-top .service-top-right ul{}
+.service-top .service-top-right ul li{ margin: 0 18px; font-size:12px;}
+.service-top .service-top-right ul li a{ display:block; color:#fff;}
+.service-main{ overflow:hidden; margin-bottom:40px; +position:relative; +top:-18px;}
+.service-main table{ width:100%;}
+
+
+/*服务商左侧菜单*/
+.service-left{ height:100%;width:350px;float:left;height:100%;}
+.service-left-menu{ font-size:12px; width:175px; background:#4badd0; float:left;height:100%;text-indent:40px;color: #fff;  min-height: 1024px; }
+.service-left-menu a{color:#fff;}
+.service-left-menu h2{height: 40px; line-height: 40px; font-size: 12px; font-weight: normal;}
+.service-left-menu h2:hover{background:#1687af;}
+.service-left-menu h2.on{background:#1687af;}
+.service-left-menu ul{ overflow:hidden;}
+.service-left-menu ul li{ width:100%; height:40px; line-height:40px;}
+.service-left-menu ul li:hover{ background:#1687af;}
+.service-left-secmenu{ font-size:12px; width:175px; height:100%; background:#f1f1f1; float:right; height:100%;text-indent:40px;}
+.service-left-secmenu ul{ overflow:hidden;}
+.service-left-secmenu ul li{ width:100%; height:40px; line-height:40px;}
+.service-left-secmenu ul li a{ color:#444; display:block;}
+.service-left-secmenu ul li:hover{ background:#fff;}
+.service-left-secmenu ul li a.on{ background:#fff;}
+
+
+.bluemenu{ width:175px; background:#4badd0;}
+.garymenu{ width:175px; background:#f1f1f1;}
+
+
+
+/*服务商右侧内容*/
+.service-right{padding:10px 30px; float:left;  width: 95%;}
+.service-right h2{ width:100%; height:40px; font-size:14px; font-family:"Microsoft YaHei"; font-weight:normal; line-height:40px; border-bottom:1px solid #cecece; color:#666; margin-bottom:25px;}
+.service-right .service-right-body{ font-size:12px; color:#666;}
+.service-right .service-right-body .service-right-lookup{ line-height:30px; overflow:hidden; margin-bottom:10px;}
+.service-right .service-right-body .service-right-lookup .service-right-lookup-input{float:left;}
+.service-right .service-right-body .service-right-lookup .service-right-lookup-btn{float:left; border:1px solid #ccc; background:#f7f7f7; padding: 0px 10px; margin: 0 15px; cursor:pointer;}
+.service-right .service-right-body .service-right-lookup input{ width:135px; height:30px; border:1px solid #ccc;text-indent:5px; margin-bottom:5px;}
+.service-right .service-right-body .service-right-list{ border:1px solid #d9d9d9; overflow:hidden;}
+.service-right .service-right-body .service-right-list .gray{ background:#f9f9f9; border:none;}
+.service-right .service-right-body .service-right-list tr{ height:40px; line-height:40px; text-indent:24px;border-bottom:1px solid #d9d9d9;}
+.service-right .service-right-body .service-right-list tr td a{ color:#666;}
+.service-right .service-right-body .service-right-list tr td a:hover{ color:#4badd0;}
+.service-right .service-right-body .service-right-list .service-right-list-results{ height:40px; line-height:40px; float:right; height:60px;}
+.service-right .service-right-body .service-right-list .service-right-list-results .service-right-list-results-num{ float:left; padding: 11px; color:#666;}
+.service-right .service-right-body .service-right-list .service-right-list-results .service-right-list-results-page{ float:left; padding: 11px;}
+.service-right .service-right-body .service-right-list .service-right-list-results .service-right-list-results-page ul{ overflow:hidden; border:1px solid #ddd;}
+.service-right .service-right-body .service-right-list .service-right-list-results .service-right-list-results-page ul li{ width:32px; height:32px;    line-height: 32px; border-right:1px solid #ddd; text-align:center;}
+.service-right .service-right-body .service-right-list .service-right-list-results .service-right-list-results-page ul li a{display:block;}
+.service-right .service-right-body .service-right-list .service-right-list-results .service-right-list-results-page ul li a:hover{ background:#4badd0; color:#fff;}
+.service-right .service-right-body .service-right-list img{margin-top:5px;margin-bottom:5px;}
+.service-right .service-right-body .service-right-list table table{margin-bottom:5px;}
+.service-right .service-right-body .service-right-list .service-right-list-results #page{margin-right:15px;}
+
+
+/*150825 商品添加*/
+.service-right .service-right-body .service-right-switch01{}
+.service-right .service-right-body .service-right-switch01 table {}
+.service-right .service-right-body .service-right-switch01 table tr {}
+.service-right .service-right-body .service-right-switch01 table tr td{}
+.service-right .service-right-body .service-right-switch01 table tr td input{height: 30px;border: 1px solid #ccc;text-indent: 5px;margin: 5px 0; line-height: 30px;}
+.service-right .service-right-body .service-right-switch01 .service-right-tdl{ height: 40px; line-height: 40px; text-align: right;width: 128px;padding-right: 15px;}
+.service-right .service-right-body .service-right-switch01 .service-right-enter{ overflow: hidden;}
+.service-right .service-right-body .service-right-switch01 .service-right-enter .service-right-enter-fl{width: 200px;float: left;}
+.service-right .service-right-body .service-right-switch01 .service-right-enter input{ outline: none; line-height: 30px;}
+.service-right .service-right-body .service-right-switch01 .service-right-enter input[type="radio"]{border: none;}
+.service-right .service-right-body .service-right-switch01 .service-right-enter input[type="submit"]{text-indent: 0;border: none;outline: none;cursor: pointer;background: #b2b2b2;color: #fff;display: block;width: 60px;height: 32px;line-height: 32px;text-align: center;}
+.service-right .service-right-body .service-right-switch01 .service-right-enter input[type="submit"]:hover{ background: #4badd0;}
+.service-right .service-right-body .service-right-switch01 .service-right-enter select{border: 1px solid #ccc\9;outline: none\9; line-height: 30px\9; vertical-align: middle\9;height: 20px\9; margin: 10px 5px\9; line-height: 20px\9; border: 1px solid #ccc;outline: none;   line-height: 30px; vertical-align: middle; height: 30px;+height:20px; margin: 6px 0; +margin-left:5px; +margin-top:10px;  line-height: 30px; }
+.service-right .service-right-body .service-right-switch01 .service-right-enter select option{ height: 30px; line-height: 30px;}
+.service-right .service-right-body .service-right-switch01 .service-right-enter-file { padding:5px 0;position: relative;display: inline-block;overflow: hidden;color: #666;text-decoration: none;text-indent: 0;outline: none;line-height: 20px;}
+.service-right .service-right-body .service-right-switch01 .service-right-enter-file input{ font-size: 12px; outline: none; border:none;height: 20px;height: 30px\9; text-indent: 0; text-indent: 5px\9;}
+.service-right .service-right-body .service-right-switch01 .service-right-enter table td{}
+.service-right .service-right-body .service-right-switch01 .service-right-enter table .service-right-tdr{ width: 175px;}
+.service-right .service-right-body .service-right-switch01 .service-right-enter table .service-right-tdl{ width: 60px;}
+
+
+
+
+
+/*底部版权*/
+.footer{ position:fixed; bottom:0; width:100%; background:#333333; height:40px; line-height:40px; text-align:center; color:#ccc; font-size:12px;font-family:"Microsoft YaHei";}
+
+
+
+
+
+
+
+/*工单详情*/
+.user-right-switch01{}
+.user-right-switch01 .workorder-remind{ height: 30px; line-height: 30px; margin-bottom: 12px; background: #f1f1f1; border:1px solid #dfdddd; font-size: 12px; padding:0 10px;}
+.user-right-switch01 .workorder-remind span{ color:#1687af;}
+.user-right-switch01 .workorder-point{ margin-bottom: 12px; overflow:hidden;}
+.user-right-switch01 .workorder-point ul{ overflow: hidden; height: 25px; width: 100%;}
+.user-right-switch01 .workorder-point ul li{ height: 25px; color:#fff; line-height: 25px; width: 19.5%; text-align: center; background: #b2b2b2; margin-right:0.5%;}
+.user-right-switch01 .workorder-point ul .active{overflow:hidden;background:#4badd0;}
+.user-right-switch01 .workorder-flow{ background: #f7f7f7; padding: 10px 20px; margin-bottom: 12px; overflow:hidden;}
+.user-right-switch01 .workorder-flow p{ padding: 5px 0;}
+.user-right-switch01 .workorder-flow ul{}
+.user-right-switch01 .workorder-flow ul li{width: 200px;height: 24px;line-height: 24px;}
+.user-right-switch01 .workorder-flow ul li span{ color:#999;}
+.user-right-switch01 .workorder-record{border: 1px solid #dfdddd; overflow: hidden; margin-bottom: 12px;margin-right:12px;}
+.user-right-switch01 .workorder-record .workorder-record-tit{ height: 38px ;line-height: 38px; padding-left:20px; background: #f9f9f9; border-bottom: 1px solid #dfdddd;}
+.user-right-switch01 .workorder-record .workorder-record-body{ padding: 0 20px; padding-bottom: 20px; overflow: hidden;}
+.user-right-switch01 .workorder-record .workorder-record-body ul{ overflow: hidden;}
+.user-right-switch01 .workorder-record .workorder-record-body ul li{padding: 20px;width: 100%;border-bottom: 1px dashed #ccc;}
+.user-right-switch01 .workorder-record .workorder-record-body ul li .workorder-record-img{ width: 40px; height: 40px; background: url(images/user.png) no-repeat; float: left;}
+.user-right-switch01 .workorder-record .workorder-record-body ul li .workorder-record-text{ float: left;padding: 2px 0;padding-left: 20px; color:#999; }
+.user-right-switch01 .workorder-record .workorder-record-body ul li .workorder-record-text .workorder-record-problem{height: 20px;line-height: 20px;}
+.user-right-switch01 .workorder-record .workorder-record-body ul li .workorder-record-text .workorder-record-time{height: 20px;line-height: 20px;}
+.user-right-switch01 .workorder-record .workorder-record-body ul li.on .workorder-record-img{ width: 40px; height: 40px; float: left;background:url(images/service.png) no-repeat;}
+.user-right-switch01 .workorder-record .workorder-record-body ul .ok .workorder-record-img{background:url(images/operation.png) no-repeat;}
+.user-right-switch01 .workorder-record-td{width:50%;}
+.user-right-switch01 .feedback-td{width:50%;}
+.user-right-switch01 .feedback{border: 1px solid #dfdddd; overflow: hidden; margin-bottom: 25px;margin-right:12px;}
+.user-right-switch01 .feedback .feedback-tit{ height: 38px ;line-height: 38px; padding-left:20px; background: #f9f9f9; border-bottom: 1px solid #dfdddd;}
+.user-right-switch01 .feedback .feedback-body{ padding: 20px; padding-bottom: 20px; overflow: hidden;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-message{margin-bottom: 25px;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-message .feedback-body-message-tit{ height: 30px; line-height: 30px;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-message .feedback-body-message-textarea{}
+.user-right-switch01 .feedback .feedback-body .feedback-body-message .feedback-body-message-textarea textarea{ padding: 10px; height: 100px;  width: 730px; vertical-align:top; border: 1px solid #dfdddd; }
+.user-right-switch01 .feedback .feedback-body .feedback-body-message .feedback-body-message-other{ color:#ff7e00;height: 30px; line-height: 30px;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret{margin-bottom: 25px;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret .feedback-body-secret-tit{ height: 30px; line-height: 30px;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret .feedback-body-secret-textarea{}
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret .feedback-body-secret-textarea textarea{  padding: 10px;height: 100px;  width: 420px;  vertical-align:top; border: 1px solid #dfdddd; }
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret .feedback-body-secret-other{ color:#ff7e00;height: 30px; line-height: 30px;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret p{ color:#999; line-height: 18px;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret .feedback-body-secret-upload{ margin: 4px 0; }
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret .feedback-body-secret-upload .file { position: relative;display: inline-block;overflow: hidden;color: #666;text-decoration: none;text-indent: 0;line-height: 20px;}
+
+/*150824 input上传文件按钮样式*/
+.feedback .feedback-body .feedback-body-secret .feedback-body-secret-upload .file {position: relative;display: inline-block;overflow: hidden;color: #666;text-decoration: none;text-indent: 0;outline: none;line-height: 20px;}
+.feedback .feedback-body .feedback-body-secret .feedback-body-secret-upload .file input{ font-size: 12px; outline: none;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-btn{ margin-top: 20px;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-btn input{ border:none; outline:none; cursor: pointer; background: #b2b2b2;color: #fff;display: block;width: 60px;height: 32px;line-height: 32px;text-align: center;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-btn input[type="submit"]:hover{ background: #4badd0;}
+
+
+/*搜索*/
+.service-right .service-right-body{ font-size:12px; color:#666;}
+.service-right .service-right-body .service-right-lookup{ line-height:30px; overflow:hidden; margin-bottom:10px;}
+.service-right .service-right-body .service-right-lookup .service-right-lookup-input{float:left;}
+.service-right .service-right-body .service-right-lookup .service-right-lookup-btn{float:left; border:1px solid #ccc; background:#f7f7f7; padding: 0px 10px; margin: 0 15px; cursor:pointer;}
+.service-right .service-right-body .service-right-lookup input{ width:135px; height:30px; border:1px solid #ccc;text-indent:5px; margin-bottom:5px;}
+
+
+/*工单管理----分配/交接*/
+.service-right-switch02{border: 1px solid #d9d9d9;overflow: hidden;}
+.service-right-switch02 table{border-bottom: none;}
+.service-right-switch02 table tr{height: 40px;line-height: 40px;text-indent: 24px;border-bottom: 1px solid #d9d9d9;}
+.service-right-switch02 table .gary{background: #f9f9f9;border: none;}
+.service-right-switch02 table tr th{ text-align: left; font-weight: normal;}
+.service-right-switch02 table tr td{}
+.service-right-switch02 table tr td input{ margin: 13px 5px;}
+
+
+
+/*150826分页*/
+.service-right .service-right-body .service-right-switch02 .service-right-list-results{ height:40px; line-height:40px; float:right; height:60px; width: 100%;}
+.service-right .service-right-body .service-right-switch02 .service-right-list-results .service-right-list-results-left{ float: left;}
+.service-right .service-right-body .service-right-switch02 .service-right-list-results .service-right-list-results-left input[type="submit"]{  font-size: 14px; cursor: pointer;margin:15px;text-indent: 0;border: none;outline: none;cursor: pointer;background: #b2b2b2;color: #fff;display: block;width: 60px;height: 32px;line-height: 32px;text-align: center;}
+.service-right .service-right-body .service-right-switch02 .service-right-list-results .service-right-list-results-left input[type="submit"]:hover{background: #4badd0;}
+.service-right .service-right-body .service-right-switch02 .service-right-list-results .service-right-list-results-right{ float: right;}
+.service-right .service-right-body .service-right-switch02 .service-right-list-results .service-right-list-results-num{ float:left; padding: 11px; color:#666;}
+.service-right .service-right-body .service-right-switch02 .service-right-list-results .service-right-list-results-page{ float:left; padding: 11px;}
+.service-right .service-right-body .service-right-switch02 .service-right-list-results .service-right-list-results-page ul{ overflow:hidden; border:1px solid #ddd;}
+.service-right .service-right-body .service-right-switch02 .service-right-list-results .service-right-list-results-page ul li{ width:32px; height:32px;    line-height: 32px; border-right:1px solid #ddd; text-align:center;}
+.service-right .service-right-body .service-right-switch02 .service-right-list-results .service-right-list-results-page ul li a{display:block;}
+.service-right .service-right-body .service-right-switch02 .service-right-list-results .service-right-list-results-page ul li a:hover{ background:#4badd0; color:#fff;}
+.service-right .service-right-body .service-right-switch02 img{width: 80px;height: 60px;margin: 10px auto;}
+.service-right .service-right-body .service-right-switch02 table table{margin-bottom:5px;}
+
+
+/*150826员工添加*/
+.service-right .service-right-body .service-right-switch03{}
+.service-right .service-right-body .service-right-switch03 table {}
+.service-right .service-right-body .service-right-switch03 table tr {}
+.service-right .service-right-body .service-right-switch03 table tr td{}
+.service-right .service-right-body .service-right-switch03 table tr td input{height: 30px;border: 1px solid #ccc;text-indent: 5px;margin: 5px 0; line-height: 30px;}
+.service-right .service-right-body .service-right-switch03 .service-right-tdl{ height: 40px; line-height: 40px; text-align: right;width: 128px;padding-right: 15px;}
+.service-right .service-right-body .service-right-switch03 .service-right-enter{ overflow: hidden;}
+.service-right .service-right-body .service-right-switch03 .service-right-enter input[type="submit"]{text-indent: 0;border: none;outline: none;cursor: pointer;background: #b2b2b2;color: #fff;display: block;width: 60px;height: 32px;line-height: 32px;text-align: center;}
+.service-right .service-right-body .service-right-switch03 .service-right-enter input[type="submit"]:hover{ background: #4badd0;}
+
+/*150826权限管理*/
+.service-right .service-right-body .service-right-switch04{}
+.service-right .service-right-body .service-right-switch04 table {}
+.service-right .service-right-body .service-right-switch04 table tr {}
+.service-right .service-right-body .service-right-switch04 table tr td{}
+.service-right .service-right-body .service-right-switch04 table tr td input{margin: 5px 0 5px 15px;outline: none;height: 30px;border: 1px solid #ccc;text-indent: 5px;line-height: 30px;}
+.service-right .service-right-body .service-right-switch04 .service-right-tdl{ height: 40px; line-height: 40px; text-align: right;width: 128px;}
+.service-right .service-right-body .service-right-switch04 .service-right-enter{ overflow: hidden;}
+.service-right .service-right-body .service-right-switch04 .service-right-enter input[type="submit"]{text-indent: 0;border: none;outline: none;cursor: pointer;background: #b2b2b2;color: #fff;display: block;width: 60px;height: 32px;line-height: 32px;text-align: center;}
+.service-right .service-right-body .service-right-switch04 .service-right-enter input[type="submit"]:hover{ background: #4badd0;}
+
+/*150831分页样式*/
+#page a.cur{border: none;background: #4badd0;color: #fff;border:1px solid #4badd0;}
+#page a:hover{color: #808080;border:1px solid #4badd0;}
+#page a.cur:hover{border: none;color:#fff;border:1px solid #4badd0;}
+.workorder-record-page{float:right;margin-right:20px;}
+#page p.pageRemark b{color: #4badd0;}
+
+/*150924服务商中心提交工单*/
+.user-right-switch01 .workorder-record .workorder-record-body ul li {padding: 20px 0;}
+.user-right-switch01 .workorder-record .workorder-record-body ul li .workorder-record-img { margin-right: 20px;margin-bottom: 20px;}
+.user-right-switch01 .workorder-record .workorder-record-body ul li .workorder-record-text {float: left;padding: 2px 0;color: #999;}
+.user-right-switch01 .workorder-record .workorder-record-body ul li .workorder-record-text .workorder-record-problem {text-align: justify;height: auto; margin-bottom: 10px;}
+
+/*151013*/
+.service-right .service-right-body .service-right-list .amount_id{cursor:pointer;}
+
+
+
+/*151014 工单回复*/
+.user-right-switch01 .workorder-record .workorder-record-body ul li .workorder-record-text{ float:none;padding: 2px 0;padding-left: 60px; color:#999; text-align: justify; }
+
+
+/*151019 ERP管理页面*/
+.user-right-switch01 .workorder-flow{padding-bottom:0;}
+/*.user-right-switch01 .workorder-flow table{ margin-bottom: 20px;}
+.user-right-switch01 .workorder-flow table tr{ height: 30px; line-height: 30px;}
+.user-right-switch01 .workorder-flow .blue-table tr td{ padding:5px; }
+.user-right-switch01 .workorder-flow table .gary{background: #4badd0;color: #fff;text-align: center; padding: 0; }
+.user-right-switch01 .workorder-flow table .gary td{ padding:0;border-left: 10px solid #f7f7f7;border-right: 10px solid #f7f7f7;}
+.user-right-switch01 .workorder-flow table tr td{}*/
+.user-right-switch01 .workorder-flow span{ padding: 5px 0;}
+.user-right-switch01 .workorder-record .workorder-record-body{ padding-bottom: 0;}
+.user-right-switch01 .workorder-record .workorder-record-body tr{height: 30px;line-height: 20px;}
+.user-right-switch01 .workorder-record .workorder-record-body .workorder-record-body-tit{}
+.user-right-switch01 .workorder-record{ margin-right: 0;}
+.user-right-switch01 .feedback{ margin-right: 0;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret table{}
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret table tr{ height: 40px; line-height: 40px;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret table tr td{}
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret span{ width: 65px; text-align: justify;display: inline-table;}
+.user-right-switch01 .feedback .feedback-body .feedback-body-secret  input[type="text"] {width: 300px;height: 30px;border: 1px solid #ccc;text-indent: 5px;margin-bottom: 5px;}
+
+/*151020*/
+.user-right-switch01 .workorder-flow p {padding: 0 0 5px 0;}
+.user-right-switch01 .workorder-record .workorder-record-body ul li{ border: none;}
+.user-right-switch01 .workorder-record .workorder-record-body .service-right-list-results{ height:40px; line-height:40px; float:right; height:60px;}
+.user-right-switch01 .workorder-record .workorder-record-body .service-right-list-results .service-right-list-results-num{ float:left; padding: 11px; color:#666;}
+.user-right-switch01 .workorder-record .workorder-record-body .service-right-list-results .service-right-list-results-page{ float:left; padding: 11px;}
+.user-right-switch01 .workorder-record .workorder-record-body .service-right-list-results .service-right-list-results-page ul{ overflow:hidden; border:1px solid #ddd;}
+.user-right-switch01 .workorder-record .workorder-record-body .service-right-list-results .service-right-list-results-page ul li{ width:32px; height:32px;line-height: 32px; padding: 0; border-right:1px solid #ddd; text-align:center;}
+.user-right-switch01 .workorder-record .workorder-record-body .service-right-list-results .service-right-list-results-page ul li a{display:block;}
+.user-right-switch01 .workorder-record .workorder-record-body .service-right-list-results .service-right-list-results-page ul li a:hover{ background:#4badd0; color:#fff;}
+.user-right-switch01 .workorder-record .workorder-record-body table{}
+.user-right-switch01 .workorder-record .workorder-record-body table tr{border-bottom: 1px solid #dfdddd;}
+.user-right-switch01 .workorder-record .workorder-record-body table tr td{vertical-align: middle;padding: 10px 0; padding-right: 10px;}
+.user-right-switch01 .workorder-record .workorder-record-body table tr td a:hover{ color: #4badd0;}
